@@ -3,9 +3,10 @@
     {
       "name": "macos-gcc-x64",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "/usr/local/Cellar/gcc/11.2.0/include/c++/11.2.0/x86_64-apple-darwin18"
       ],
-      "compilerPath": "/usr/bin/clang",
+      "compilerPath": "/usr/bin/gcc",
       "cStandard": "${default}",
       "cppStandard": "${default}",
       "intelliSenseMode": "macos-gcc-x64",
